@@ -1,0 +1,11 @@
+--- /diffxml/diffxml.sh.o
++++ /diffxml/diffxml.sh
+@@ -3,7 +3,7 @@
+ # then call diffxml with the given arguments.
+
+ #First find out where we are relative to the user dir
+-callPath=${0%/*}
++callPath=$(dirname $0)
+
+ if [[ -n "${callPath}" ]]; then
+   callPath=${callPath}/
