@@ -11,3 +11,4 @@ RUN set -x && \
     patch -p0 <patch-1.patch
 
 ENTRYPOINT ["/diffxml/diffxml.sh"]
+WORKDIR /root
