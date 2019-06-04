@@ -1,5 +1,5 @@
 FROM alpine
-LABEL maintainer="matthew.slowe@jisc.ac.uk""
+LABEL maintainer="matthew.slowe@jisc.ac.uk"
 LABEL Description="Alpine Linux based container with diffxml available"
 
 COPY patch-1.patch /
